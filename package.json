@@ -1,0 +1,17 @@
+{
+  "name": "color-gradient",
+  "version": "0.0.1",
+  "description": "A package for generate colors between two colors",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testRegex": "/tests/index.js$"
+  },
+  "author": "ibrahimtelman",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
