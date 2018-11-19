@@ -25,5 +25,5 @@
 
   ### Todos
 
-  - [ ] Push my commits to GitHub
-  - [ ] Open a pull request
+  - [ ] RGB input support
+  - [ ] RGB and HEX output support with config
