@@ -14,8 +14,18 @@
 
   var colors = generate("#fff", "#000", 6);
   ```
+  
+  ## Return
+  ```js
+  [
+    "rgb(255,255,255)", 
+    "rgb(212.5,212.5,212.5)", 
+    ...
+    "rgb(0,0,0)"
+  ]
+  ```  
 
-  ### Test
+  ## Test
 
 
   ```sh
@@ -23,7 +33,7 @@
   ```
 
 
-  ### Todos
+  ## Todos
 
   - [ ] RGB input support
-  - [ ] RGB and HEX output support with config
+  - [ ] Optional RGB and HEX output support
