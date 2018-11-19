@@ -9,7 +9,7 @@ function generate(start_color, end_color, midpoint=2) {
     const average = end.map((val, i) => ((val - start[i]) / midpoint));
 
     for (let i = 0; i <= midpoint; i++) {
-        let temp = start.map((val, k) => (val + (average[k] * i)));
+        let temp = start.map((val, k) => Math.round(val + (average[k] * i)));
         result.push("rgb("+temp.join(',')+")");
     }
 
