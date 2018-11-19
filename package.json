@@ -6,11 +6,20 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimtelman/color-gradient.git"
+  },
   "jest": {
     "testRegex": "/tests/index.js$"
   },
   "author": "ibrahimtelman",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimtelman/color-gradient/issues",
+    "email": "ibrahimtlmn@gmail.com"
+  },
+  "homepage": "https://github.com/ibrahimtelman/color-gradient#readme",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^23.6.0"
   }
