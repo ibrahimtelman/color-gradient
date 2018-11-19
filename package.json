@@ -1,6 +1,6 @@
 {
   "name": "color-gradient",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package for generate colors between two colors",
   "main": "src/index.js",
   "scripts": {
