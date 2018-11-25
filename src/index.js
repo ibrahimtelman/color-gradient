@@ -1,6 +1,8 @@
 'use strict';
 
-function generate(start_color, end_color, midpoint=2) {
+function generate(start_color, end_color, midpoint=1) {
+	midpoint = midpoint < 0 ? 0 : midpoint;
+	midpoint++;
     const start = hexToRGB(start_color);
     const end = hexToRGB(end_color);
 

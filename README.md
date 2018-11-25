@@ -1,39 +1,39 @@
-  # Color Gradient
-   A package for generate colors between two colors
+# Color Gradient
 
-  ### Installation
+A package for generate colors between two colors
 
-  ```sh
-  npm install color-gradient --save
-  ```
+## Installation
 
-  ## Usage
+```sh
+npm install color-gradient --save
+```
 
-  ```js
-  var generate = require('color-gradient');
+## Usage
 
-  var colors = generate("#fff", "#000", 6);
-  ```
-  
-  ## Return
-  ```js
-  [
-    "rgb(255,255,255)", 
-    "rgb(213,213,213)", 
-    ...
-    "rgb(0,0,0)"
-  ]
-  ```  
+```js
+var generate = require("color-gradient");
 
-  ## Test
+var colors = generate("#fff", "#000", 6);
+```
 
+## Return
 
-  ```sh
-  npm test
-  ```
+```js
+[
+  "rgb(255,255,255)", 
+  "rgb(219,219,219)", 
+  ... 
+  "rgb(0,0,0)"
+]
+```
 
+## Test
 
-  ## Todos
+```sh
+npm test
+```
 
-  - [ ] RGB input support
-  - [ ] Optional RGB and HEX output support
+## Todos
+
+- [ ] RGB input support
+- [ ] Optional RGB and HEX output support
