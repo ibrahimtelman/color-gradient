@@ -1,3 +1,8 @@
+[![npm](https://img.shields.io/npm/v/color-gradient)](https://www.npmjs.com/package/color-gradient)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/color-gradient?label=code-size)](https://github.com/ibrahimtelman/color-gradient) 
+[![npm](https://img.shields.io/npm/dt/color-gradient)](https://github.com/ibrahimtelman/color-gradient) 
+[![GitHub](https://img.shields.io/github/license/ibrahimtelman/color-gradient)](https://github.com/ibrahimtelman/color-gradient) 
+
 # Color Gradient
 
 A package for generate colors between two colors
