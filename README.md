@@ -19,7 +19,7 @@ npm install color-gradient --save
 var generate = require("color-gradient");
 
 // generate(start_color, end_color, midpoint, options)
-var colors = generate("#fff", "#000", 6, { has_heads: true, output: "rgb" });
+var colors = generate("#ffffff", "#000000", 6, { has_heads: true, output: "rgb" });
 ```
 
 ## Return
