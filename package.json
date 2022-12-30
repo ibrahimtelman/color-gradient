@@ -21,6 +21,6 @@
   "homepage": "https://github.com/ibrahimtelman/color-gradient#readme",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^29.3.1"
   }
 }
